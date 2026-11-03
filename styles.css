@@ -1,0 +1,14 @@
+#form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+}
+
+#correo:invalid, #pais:invalid, #codigo:invalid, #contraseña:invalid, #confirmContraseña:invalid{
+    border-color: blueviolet;
+}
+
+#correo:valid, #pais:valid, #codigo:valid, #contraseña:valid, #confirmContraseña:valid{
+    border-color: green;
+}
