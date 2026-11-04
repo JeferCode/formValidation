@@ -5,8 +5,12 @@
     margin: auto;
 }
 
-#correo:invalid, #pais:invalid, #codigo:invalid, #contraseña:invalid, #confirmContraseña:invalid{
-    border-color: blueviolet;
+#correo:invalid:placeholder-shown,
+#pais:invalid:placeholder-shown,
+#codigo:invalid:placeholder-shown, 
+#contraseña:invalid:placeholder-shown, 
+#confirmContraseña:invalid:placeholder-shown{
+    border-color: rgb(226, 43, 43);
 }
 
 #correo:valid, #pais:valid, #codigo:valid, #contraseña:valid, #confirmContraseña:valid{
