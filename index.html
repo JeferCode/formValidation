@@ -9,19 +9,19 @@
 <body>
     <form novalidate id="form">
         <label for="correo">Correo electronico</label>
-        <input type="email" id="correo" required>
+        <input type="email" id="correo" placeholder="" required>
 
         <label for="pais">Pais</label>
-        <input type="text" id="pais" required>
+        <input type="text" id="pais" pattern="^[a-zA-ZáéíóúÁÉÍÓÚñÑ ]+$" minlength="4" placeholder="" required>
 
         <label for="codigo">Código postal</label>
-        <input type="text" id="codigo" required>
+        <input type="text" id="codigo" placeholder="" required>
 
         <label for="contraseña">Contraseña</label>
-        <input type="password" id="contraseña" minlength="8" required>
+        <input type="password" id="contraseña" minlength="8" placeholder="" required>
 
         <label for="confirmContraseña">Confirmar contraseña</label>
-        <input type="text" id="confirmContraseña" required>
+        <input type="text" id="confirmContraseña" placeholder="" required>
 
         <button id="enviar">Enviar</button>
     </form>

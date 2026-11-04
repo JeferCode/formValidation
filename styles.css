@@ -5,11 +5,11 @@
     margin: auto;
 }
 
-#correo:invalid:placeholder-shown,
-#pais:invalid:placeholder-shown,
-#codigo:invalid:placeholder-shown, 
-#contraseña:invalid:placeholder-shown, 
-#confirmContraseña:invalid:placeholder-shown{
+#correo:invalid:not(:placeholder-shown),
+#pais:invalid:not(:placeholder-shown),
+#codigo:invalid:not(:placeholder-shown), 
+#contraseña:invalid:not(:placeholder-shown), 
+#confirmContraseña:invalid:not(:placeholder-shown){
     border-color: rgb(226, 43, 43);
 }
 
