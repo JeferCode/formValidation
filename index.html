@@ -12,7 +12,14 @@
         <input type="email" id="correo" placeholder="" required>
 
         <label for="pais">Pais</label>
-        <input type="text" id="pais" pattern="^[a-zA-ZáéíóúÁÉÍÓÚñÑ ]+$" minlength="4" placeholder="" required>
+
+        <select id="pais" name="pais" required>
+            <option value="Colombia" selected>colombia</option>
+            <option value="Alemania">alemania</option>
+            <option value="Usa">estados unidos</option>
+            <option value="Francia">francia</option>
+            <option value="España">españa</option>
+        </select>
 
         <label for="codigo">Código postal</label>
         <input type="text" id="codigo" placeholder="" required>
